@@ -13,7 +13,6 @@ int main() {
    float pib;
    int pontosTuristicos;
 
-
    //cadastro da primeira carta
    printf("=== Cadastro da Primeira Carta ===\n");
    printf("Digite o código da cidade (ex: B01): ");
@@ -28,7 +27,24 @@ int main() {
    scanf("%f", &pib);
    printf("Digite o número de pontos turísticos: ");
    scanf("%d", &pontosTuristicos);
-   
+
+       // Exibição dos dados da primeira carta
+    printf("\n=== Dados da Primeira Carta ===\n");
+    printf("Código: %s\n", codigo);
+    printf("Cidade: %s\n", nome);
+    printf("População: %d\n", populacao);
+    printf("Área: %.2f km²\n", area);
+    printf("PIB: %.2f bilhões\n", pib);
+    printf("Pontos Turísticos: %d\n", pontosTuristicos);
+
+        // Exibição dos dados da primeira carta
+    printf("\n=== Dados da Primeira Carta ===\n");
+    printf("Código: %s\n", codigo);
+    printf("Cidade: %s\n", nome);
+    printf("População: %d\n", populacao);
+    printf("Área: %.2f km²\n", area);
+    printf("PIB: %.2f bilhões\n", pib);
+    printf("Pontos Turísticos: %d\n", pontosTuristicos);
 
 
 
