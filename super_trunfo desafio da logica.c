@@ -54,4 +54,21 @@ int main() {
    printf("Densidade Populacional: %.6f hab/km²\n", densidade2);
    printf("PIB per capita: R$ %.2f\n", pibPerCapita2);
 
-   
+   // Comparaçao das cartas
+   printf("\n=== Comparação de Cartas (Atributo: PIB) ===\n");
+
+   if (pib1 > pib2) {
+   printf("Carta 1 - %s (%s): %.2f bilhões\n", nomeCidade1, estado1, pib1);
+   printf("Carta 2 - %s (%s): %.2f bilhões\n", nomeCidade2, estado2, pib2);
+   printf("Resultado: Carta 1 (%s) venceu!\n", nomeCidade1);
+   } else if (pib2 > pib1) {
+   printf("Carta 1 - %s (%s): %.2f bilhões\n", nomeCidade1, estado1, pib1);
+   printf("Carta 2 - %s (%s): %.2f bilhões\n", nomeCidade2, estado2, pib2);
+   printf("Resultado: Carta 2 (%s) venceu!\n", nomeCidade2);
+   } else {
+   printf("Empate! Ambas as cartas possuem o mesmo PIB.\n");
+   }
+
+   return 0;
+}
+
